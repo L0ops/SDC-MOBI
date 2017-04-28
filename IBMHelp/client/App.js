@@ -11,12 +11,10 @@
 		var $idBeingEdited = "";
 		var $editBtn = "";
 		var $refreshBtn = $("#refresh");
-		var $test = $("#SaveEtat");
 
 		$refreshBtn.click(onRefreshClick);
     $saveNewItemButton.click(onSaveNewItemButtonClicked);
     $saveExistingItemButton.click(onSaveExistingItemButtonClicked);
-    	$test.click(onSaveEtat);
 		function init() {
 			$infoBox.children("#init").show();
 			refreshItemsList();
@@ -24,10 +22,6 @@
 			$("#new-todo").submit(function (e) {
 				return false;
 			});
-		}
-
-		function onSaveEtat() {
-			console.log("test SAVE ETAT");
 		}
 
 		function onRefreshClick(){
