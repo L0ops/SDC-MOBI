@@ -10,7 +10,6 @@
 *.pid
 *.swp
 *.swo
-node_modules
 coverage
 *.tgz
 *.xml
