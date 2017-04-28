@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: eu-gb.mybluemix.net
+  name: IBMHelp
+  host: IBMHelp
+  disk_quota: 1024M
+  services:
+  - IBMHelp-AdvancedMobileAccess
+  - IBMHelp-imfpush
+  - IBMHelp-cloudantNoSQLDB
+  - Conversation-di
